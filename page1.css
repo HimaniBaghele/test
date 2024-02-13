@@ -1,0 +1,56 @@
+ #animatedDiv p a b{
+    font-size: 124px;
+    /* color: #563fd8; */
+    /* color: #D83F87; */
+    color: #4c95b1;
+
+}
+.three{width: max-content;
+    position: relative;
+    left: -1020px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    animation: slideIn2 2s ease-in-out forwards;
+    /* right:0; */
+    bottom: -296px;
+/* z-index: 4; */
+}
+.three a b{
+    font-size: 124px;
+    /* color: #563fd8; */
+    /* color: #D83F87; */
+    color: #4c95b1;
+}
+@keyframes slideIn2 {
+    0% {
+      left: -1020px; 
+    }
+    100% {
+      left: 95px; 
+    }
+  }
+
+  .four{width: max-content;
+    position: relative;
+    left: -1020px;
+    font-size: 40px;
+    color: white;
+    animation: slideIn3 2.3s ease-in-out forwards;
+    right:0;
+    bottom: -170px;
+/* z-index: 5; */
+}
+.four a b{
+    font-size: 124px;
+    /* color: #563fd8; */
+    /* color: #D83F87; */
+    color: #4c95b1;
+}
+@keyframes slideIn3 {
+    0% {
+      left: -1020px; 
+    }
+    100% {
+      left: 20px; 
+    }
+  }
